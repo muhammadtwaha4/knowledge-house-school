@@ -10,9 +10,12 @@ import Academics from './pages/Academics'
 import Admissions from './pages/Admissions'
 import Contact from './pages/Contact'
 
+import ScrollToTop from './components/ScrollToTop'
+
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
